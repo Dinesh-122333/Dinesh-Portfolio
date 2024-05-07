@@ -12,3 +12,8 @@
 .para_font_size{
     font-size: 28px;
 }
+
+.card:hover {
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0 55px rgba(145, 227, 241, 0.3);
+  }
