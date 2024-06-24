@@ -7,7 +7,7 @@ import github from "../assets/github.png";
 
 export default function Calculator() {
   const handlelivePress = () => {
-    window.open("https://dinesh-122333.github.io/Simple_Calculator/", "_blank"); // Replace with your live link URL
+    window.open("https://simple-calculator-gamma-umber.vercel.app/", "_blank"); // Replace with your live link URL
   };
 
   const handlegitPress = () => {
