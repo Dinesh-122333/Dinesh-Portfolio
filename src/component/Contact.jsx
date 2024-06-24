@@ -10,7 +10,8 @@ export default function Contact() {
 
   return (
     <>
-      <h1 className="d-flex justify-content-center">Contact me</h1>
+    <section id="contact" className="section">
+    <h1 className="d-flex justify-content-center">Contact me</h1>
       <div className="d-flex justify-content-center">
         <form onSubmit={handleSubmit}>
           <div className="form-floating mb-3">
@@ -49,6 +50,7 @@ export default function Contact() {
           </p>
         </form>
       </div>
+    </section>
     </>
   );
 }
