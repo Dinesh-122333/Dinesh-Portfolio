@@ -1,58 +1,37 @@
-import React from "react";
+import React, { useEffect } from "react";
 import send from "../assets/send.png";
-
+import mail from "../assets/mail.png";
+import linkedin from "../assets/linkedin.png";
+import phone from "../assets/phone.png";
+import Aos from "aos";
 export default function Contact() {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Your form submission logic here
-    alert("Form submitted!");
-  };
-
+  function onhandlemailPress(){
+    window.location.href = "mailto:dineshsrinivasanr77529@gmail.com";
+  }
+  function onhandllinkedinPress(){
+    window.open("https://www.linkedin.com/in/dinesh-s-a362a8236/")
+  }
+  function onhandlphonePress(){
+    window.location.href = "tel:+91 9361154699"; 
+  }
+  useEffect(() => {
+    Aos.init({
+      duration: 1600,
+    });
+  }, []);
   return (
     <>
-    <section id="contact" className="section">
-    <h1 className="d-flex justify-content-center">Contact me</h1>
-      <div className="d-flex justify-content-center">
-        <form onSubmit={handleSubmit}>
-          <div className="form-floating mb-3">
-            <input
-              type="text"
-              className="form-control"
-              id="floatingName"
-              placeholder="Name"
-            />
-            <label htmlFor="floatingName">Name</label>
-          </div>
-          <div className="form-floating mb-3">
-            <input
-              type="email"
-              className="form-control"
-              id="floatingEmail"
-              placeholder="name@example.com"
-            />
-            <label htmlFor="floatingEmail">Email</label>
-          </div>
-          <div className="form-floating">
-            <textarea
-              className="form-control"
-              placeholder="Leave a comment here"
-              id="floatingTextarea"
-            ></textarea>
-            <label htmlFor="floatingTextarea">Comments</label>
-          </div>
-
-          <p
-            className="border border-2 rounded-pill my-5 ps-5 h5 d-flex align-items-center cursor-pointer"
-            onClick={() => document.querySelector('form').dispatchEvent(new Event('submit', {cancelable: true, bubbles: true}))}
-            style={{ cursor: "pointer" }}
-          >
-            send message <img className="w-25 ms-2" src={send} alt="send icon" />
-          </p>
-        </form>
-      </div>
-    </section>
+      <section id="contact" className="section">
+        <div className="" data-aos="fade-up">
+        <h1 className="d-flex justify-content-center">Contact me</h1>
+        <div className="d-flex justify-content-center m-5">
+          <img src={mail} onClick={onhandlemailPress} style={{cursor:"pointer"}} alt="Mail" className="icon-width h-25 mx-3" />
+          <img src={linkedin} onClick={onhandllinkedinPress} style={{cursor:"pointer"}}  alt="LinkedIn" className="ms-4 me-3 icon-width h-25" />
+          <img src={phone} onClick={onhandlphonePress} style={{cursor:"pointer"}}  alt="Phone" className="mx-3 icon-width h-25" />
+        </div>
+        </div>
+        
+      </section>
     </>
   );
 }
-
-        
