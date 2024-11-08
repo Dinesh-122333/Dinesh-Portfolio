@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import covid from "../assets/Covid_Prediction.png"
 import './styles.css'
+import Foodbridge from "./Foodbridge";
 import Profilemaker from "./Profilemaker";
 import Photoshopsy from "./Photoshopsy";
 import Booksearch from "./Booksearch";
@@ -24,6 +25,8 @@ export default function Works(){
           </div>
               
               {/*  Projects  */}
+              <Foodbridge/>
+              <p className="py-5"></p>
               <Profilemaker/>
               <p className="py-5"></p>
               <Photoshopsy/>

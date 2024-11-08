@@ -1,23 +1,26 @@
-import React from "react";
-import one from '../assets/ProfileMaker/one.png';
-import two from '../assets/ProfileMaker/two.png';
-import three from '../assets/ProfileMaker/three.png';
-import four from '../assets/ProfileMaker/four.png';
-import five from '../assets/ProfileMaker/five.png';
-import live from '../assets/Live.png';
+import React from 'react'
+import one from '../assets/Food-bridge/one.png'
+import two from '../assets/Food-bridge/two.png';
+import three from '../assets/Food-bridge/three.png';
+import four from '../assets/Food-bridge/four.png';
+import five from '../assets/Food-bridge/five.png';
+import six from '../assets/Food-bridge/six.png';
+import seven from '../assets/Food-bridge/seven.png';
+import eight from '../assets/Food-bridge/eigth.png';
+
+// import live from '../assets/Live.png';
 import github from '../assets/github.png';
 
-import './styles.css';
-
-export default function Profilemaker() {
-  const handlegitPress = () => {
-    window.open("https://github.com/Dinesh-122333/ProfileMaker", "_blank"); // Replace with your GitHub repository URL
-  };
-
+export default function Foodbridge() {
+    
+    const handlegitPress = () => {
+        window.open("https://github.com/Dinesh-122333/Food-bridge", "_blank"); // Replace with your GitHub repository URL
+    };
   return (
+
     <>
       <div className="d-flex justify-content-center">
-        <h5 className="main_font">Profilemaker</h5>
+        <h5 className="main_font">Food Bridge</h5>
       </div>
       
       <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
@@ -27,22 +30,34 @@ export default function Profilemaker() {
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={one} className="d-block w-75 mx-auto" alt="..." />
+            <img src={one} className="d-block w-5 mx-auto" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={two} className="d-block w-75 mx-auto" alt="..." />
+            <img src={two} className="d-block w-5 mx-auto" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={three} className="d-block w-75 mx-auto" alt="..." />
+            <img src={three} className="d-block w-5 mx-auto" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={four} className="d-block w-75 mx-auto" alt="..." />
+            <img src={four} className="d-block w-5 mx-auto" alt="..." />
           </div>
           <div className="carousel-item">
-            <img src={five} className="d-block w-75 mx-auto" alt="..." />
+            <img src={five} className="d-block w-5 mx-auto" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src={six} className="d-block w-5 mx-auto" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src={seven} className="d-block w-5 mx-auto" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src={eight} className="d-block w-5 mx-auto" alt="..." />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -57,10 +72,10 @@ export default function Profilemaker() {
 
       <div className="d-flex justify-content-center py-5 px-5 para_color">
         <p className="text-center px-3 h5">
-          Profilemaker is a dynamic web application designed to help users create and manage their profiles with ease. 
-          By registering and logging in, users can build their profiles using a responsive interface that seamlessly adapts 
-          to both desktop and mobile screens. Profilemaker also includes a handy age calculator that computes your age from your date of birth automatically. Users can 
-          update their profiles in real-time, ensuring their information is always current. 
+        This project endeavors to tackle the interconnected issues of food waste and hunger prevalent in 
+        local communities through the development of a mobile application. The system facilitates the 
+        efficient redistribution of surplus food resources by implementing an matching algorithm and 
+        proper communication channels. 
         </p>
       </div>
 
@@ -70,5 +85,5 @@ export default function Profilemaker() {
         </p>
       </div>
     </>
-  );
+  )
 }
