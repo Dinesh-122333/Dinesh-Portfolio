@@ -8,6 +8,7 @@ import Booksearch from "./Booksearch";
 import Feed from "./Feed";
 import Calculator from "./Calculator";
 import Aos from "aos";
+import Coffee from "./Coffee";
 
 export default function Works(){
   useEffect(() =>{
@@ -26,6 +27,8 @@ export default function Works(){
               
               {/*  Projects  */}
               <Foodbridge/>
+              <p className="py-5"></p>
+              <Coffee/>
               <p className="py-5"></p>
               <Profilemaker/>
               <p className="py-5"></p>

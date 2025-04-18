@@ -1,5 +1,7 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useEffect } from "react";
 import img from "../assets/my_img.jpeg"
+// Frontend
 import Html from "../assets/Frontend/HTML.png"
 import css from "../assets/Frontend/CSS.png"
 import bootstrap from "../assets/Frontend/Bootstrap.png"
@@ -8,27 +10,34 @@ import ts from "../assets/Frontend/Typescript.png"
 import Reactjs from "../assets/Frontend/React_js.png"
 import Reactnative from "../assets/Frontend/React_Native.png"
 import jQuery from "../assets/Frontend/jQuery.png"
+import angular from "../assets/Frontend/angular.png"
 
+// Backend
 import php from "../assets/Backend/php.png"
 import express from "../assets/Backend/express.png"
 import node from "../assets/Backend/node.png"
 
+// DBs
 import mysql from "../assets/Database/mysql.png"
 import mongodb from "../assets/Database/mongodb.png"
 import redis from "../assets/Database/redis.png"
 
+// Machine Learning
 import numpy from "../assets/Machinelearning/numpy.png"
 import pandas from "../assets/Machinelearning/pandas.png"
 import matplot from "../assets/Machinelearning/matplotlib.jpg"
 import deep from "../assets/Machinelearning/deep-learning.png"
 import scikit from "../assets/Machinelearning/scikit.png"
 
+// Programming Lang
 import python from "../assets/programming_lang/python.png"
 import c from "../assets/programming_lang/c.png"
 
+// deployement
 import github from "../assets/Deployment/github.png"
 import aws from "../assets/Deployment/aws.png"
 
+// tools
 import jupyter from "../assets/tools/jupyter.png"
 import postman from "../assets/tools/postman.png"
 import vscode from "../assets/tools/vscode.png"
@@ -117,6 +126,10 @@ export default function Aboutus() {
                 <div className="col text-center">
                   <img src={jQuery} className="img-fluid mb-2" alt="jQuery" style={{ width: '50px', height: '50px' }} />
                   <p className="card-title">jQuery</p>
+                </div>
+                <div className="col text-center">
+                  <img src={angular} className="img-fluid mb-2" alt="jQuery" style={{ width: '50px', height: '50px' }} />
+                  <p className="card-title">Angular</p>
                 </div>
               </div>
             </div>
