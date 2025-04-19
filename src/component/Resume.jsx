@@ -3,7 +3,7 @@ import Aos, { AOS } from "aos";
 const Resume = () => {
   const handleViewClick = () => {
     
-    window.open('https://drive.google.com/file/d/13_hspANIsFT264cL7fKn0PIt024glLhh/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1ryLu66Lrz7RmTwsZjddXv2qIU-xL4Y7h/view?usp=sharing', '_blank');
   };
   useEffect(() =>{
     Aos.init({
