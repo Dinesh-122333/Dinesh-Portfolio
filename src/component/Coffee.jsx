@@ -24,7 +24,7 @@ export default function Coffee() {
   return (
     <>
     <div className="d-flex justify-content-center">
-            <h5 className="main_font">Coffee</h5>
+            <h5 className="main_font">Coffee Explorer</h5>
             </div>
     
             <div id="carouselExampleIndicatorsCalculator" className="carousel slide" data-bs-ride="carousel">
@@ -81,9 +81,12 @@ export default function Coffee() {
     
             <div className="d-flex justify-content-center py-5 px-5 para_color">
             <p className="text-center px-3 h5">
-                Calculator is a straightforward and user-friendly web application that provides all the basic arithmetic operations you need. 
-                Whether you need to add, subtract, multiply, or divide, this calculator has got you covered. 
-                Its clean and intuitive interface allows users of all ages to quickly and efficiently handle their mathematical needs.
+                ☕ Coffee Explorer is a beautifully crafted web application designed for coffee lovers to dive into the world of brews.
+                 From classic Americano to creamy Latte, each page showcases multiple variations, brewing steps, and visuals that make 
+                learning about coffee both fun and informative. 🔍💡 With a smooth and responsive UI powered by React and Tailwind CSS,
+                 users can easily explore different coffee types, learn how to make them, and even get inspired to try something new. 
+                🌿✨ Whether you're a casual sipper or a hardcore caffeine enthusiast, this app offers a delightful way to 
+                appreciate every cup! 📱🚀
             </p>
             </div>
     
