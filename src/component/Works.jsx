@@ -6,7 +6,7 @@ import Profilemaker from "./Profilemaker";
 import Photoshopsy from "./Photoshopsy";
 import Booksearch from "./Booksearch";
 import Feed from "./Feed";
-import Calculator from "./Calculator";
+// import Calculator from "./Calculator";
 import Aos from "aos";
 import Coffee from "./Coffee";
 
@@ -37,8 +37,8 @@ export default function Works(){
               <Booksearch/>
               <p className="py-5"></p>
                 <Feed/>
-              <p className="py-5"></p>
-                <Calculator/>
+{/*               <p className="py-5"></p>
+                <Calculator/> */}
         </div>
         </section>
         
