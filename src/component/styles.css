@@ -148,3 +148,152 @@ input:focus, textarea:focus, select:focus {
  color: #e0e0e0;
  border-color: #00d9ff;
 }
+
+/* Resume and Skill sections */
+.resume-section, .skills-section {
+ background-color: #1a1a1a !important;
+ color: #e0e0e0;
+}
+
+.skill-category {
+ background-color: #2d2d2d !important;
+ border: 1px solid #444444 !important;
+}
+
+.skill-badge, .tech-icon {
+ background-color: #2d2d2d !important;
+ color: #00d9ff !important;
+ border: 2px solid #00d9ff !important;
+ border-radius: 50px;
+}
+
+.skill-badge:hover, .tech-icon:hover {
+ background-color: #00d9ff !important;
+ color: #1a1a1a !important;
+ box-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
+}
+
+/* Tool/Icon containers */
+.tool-container, .icon-container, .tech-container {
+ background-color: #1a1a1a !important;
+}
+
+.tool-item, .icon-item, .tech-item, .bg-light {
+ background-color: #2d2d2d !important;
+ color: #e0e0e0 !important;
+ border: 1px solid #444444 !important;
+}
+
+.tool-item:hover, .icon-item:hover, .tech-item:hover {
+ background-color: #00d9ff !important;
+ color: #1a1a1a !important;
+ transform: scale(1.05);
+ box-shadow: 0 0 20px rgba(0, 217, 255, 0.5) !important;
+}
+
+.tool-item img, .icon-item img, .tech-item img {
+ filter: brightness(0.9);
+}
+
+.tool-item:hover img, .icon-item:hover img, .tech-item:hover img {
+ filter: brightness(1.2);
+}
+
+/* Typography and text elements */
+h1, h2, h3, h4, h5, h6 {
+ color: #e0e0e0;
+}
+
+h1 .primary-color, h2 .primary-color, h3 .primary-color,
+h4 .primary-color, h5 .primary-color, h6 .primary-color {
+ color: #00d9ff;
+}
+
+p {
+ color: #b0b0b0;
+}
+
+a {
+ color: #00d9ff;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #00d9ff;
+ text-decoration: underline;
+}
+
+/* Container and layout */
+.container {
+ background-color: #1a1a1a;
+}
+
+.row {
+ background-color: #1a1a1a;
+}
+
+.col, .col-md-6, .col-lg-3, .col-md-4 {
+ background-color: #1a1a1a;
+}
+
+/* Border and divider styles */
+hr {
+ border-color: #444444;
+}
+
+.divider {
+ background-color: #444444;
+}
+
+/* Form elements styling */
+.form-control, .form-control:focus {
+ background-color: #2d2d2d !important;
+ color: #e0e0e0 !important;
+ border-color: #444444 !important;
+}
+
+.form-control:focus {
+ border-color: #00d9ff !important;
+ box-shadow: 0 0 0 0.2rem rgba(0, 217, 255, 0.25) !important;
+}
+
+/* Navigation items */
+.nav-link {
+ color: #e0e0e0 !important;
+}
+
+.nav-link:hover, .nav-link.active {
+ color: #00d9ff !important;
+}
+
+/* Badge and label styles */
+.badge, .label {
+ background-color: #00d9ff;
+ color: #1a1a1a;
+}
+
+/* Table styles */
+table {
+ background-color: #2d2d2d !important;
+ color: #e0e0e0;
+ border-color: #444444 !important;
+}
+
+table th {
+ background-color: #1a1a1a;
+ color: #00d9ff;
+ border-color: #444444 !important;
+}
+
+table td {
+ border-color: #444444 !important;
+}
+
+/* List and item styles */
+li {
+ color: #b0b0b0;
+}
+
+li.active {
+ color: #00d9ff;
+}
