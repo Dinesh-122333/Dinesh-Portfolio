@@ -149,6 +149,48 @@ input:focus, textarea:focus, select:focus {
  border-color: #00d9ff;
 }
 
+/* Override Bootstrap white backgrounds for dark theme */
+.card {
+ background-color: #2d2d2d !important;
+ border-color: #00d9ff !important;
+}
+
+.card-body {
+ background-color: #2d2d2d !important;
+}
+
+.card-title, .card-title p {
+ color: #e0e0e0 !important;
+}
+
+.bg-white {
+ background-color: #2d2d2d !important;
+}
+
+.bg-light {
+ background-color: #2d2d2d !important;
+}
+
+.text-dark {
+ color: #e0e0e0 !important;
+}
+
+.border-success {
+ border-color: #00d9ff !important;
+}
+
+.btn-outline-success {
+ color: #00d9ff;
+ border-color: #00d9ff;
+}
+
+.btn-outline-success:hover {
+ background-color: #00d9ff;
+ border-color: #00d9ff;
+ color: #1a1a1a;
+}
+
+
 /* Resume and Skill sections */
 .resume-section, .skills-section {
  background-color: #1a1a1a !important;
