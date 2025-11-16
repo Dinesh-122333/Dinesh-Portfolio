@@ -8,6 +8,7 @@ import Works from './component/Works'
 import Aboutus from './component/About'
 import Resume from './component/Resume'
 import Contact from './component/Contact'
+import LeetCode from './component/LeetCode'
 
 export default function App() {
   return(
@@ -17,6 +18,7 @@ export default function App() {
     <Works/>
     <Aboutus/>
     <Resume/>
+           <LeetCode/>
     <Contact/>
     </>
   )
