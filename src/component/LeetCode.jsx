@@ -13,7 +13,7 @@ const LeetCode = () => {
     mediumTotal: 1600,
     hardTotal: 800,
     ranking: 18420,
-    badges: ["365 Days Badge", "Knight Badge"],
+    badges: ["365 Days Badge"],
     strikeStats: { currentStreak: 15, longestStreak: 45 }
   });
 
@@ -120,7 +120,7 @@ const LeetCode = () => {
           <div className="row mt-5" data-aos="fade-up">
             <div className="col-12 text-center">
               <a
-                href="https://leetcode.com/Dinesh_k40"
+                href="https://leetcode.com/u/dineshsrinivasanr77529/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline-primary me-2"
@@ -128,7 +128,7 @@ const LeetCode = () => {
                 <h5 className="pt-2">Visit LeetCode Profile</h5>
               </a>
               <a
-                href="https://www.strivers.in/"
+                href="https: https://takeuforward.org/profile/Dinesh_S"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline-success"
