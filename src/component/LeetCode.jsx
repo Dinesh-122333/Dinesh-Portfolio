@@ -4,17 +4,17 @@ import "./styles.css";
 
 const LeetCode = () => {
   const [leetcodeStats, setLeetcodeStats] = useState({
-    totalSolved: 150,
-    totalQuestions: 3500,
-    easySolved: 80,
-    mediumSolved: 50,
-    hardSolved: 20,
-    easyTotal: 1100,
-    mediumTotal: 1600,
-    hardTotal: 800,
-    ranking: 18420,
+    totalSolved: 400+,
+    totalQuestions: 3749,
+    easySolved: 191,
+    mediumSolved: 201,
+    hardSolved: 31,
+    easyTotal: 900,
+    mediumTotal: 1951,
+    hardTotal: 885,
+    ranking: 231235,
     badges: ["365 Days Badge"],
-    strikeStats: { currentStreak: 15, longestStreak: 45 }
+    strikeStats: { currentStreak: 26, longestStreak: 45 }
   });
 
   useEffect(() => {
@@ -128,7 +128,7 @@ const LeetCode = () => {
                 <h5 className="pt-2">Visit LeetCode Profile</h5>
               </a>
               <a
-                href="https: https://takeuforward.org/profile/Dinesh_S"
+                href="https://takeuforward.org/profile/Dinesh_S"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline-success"
